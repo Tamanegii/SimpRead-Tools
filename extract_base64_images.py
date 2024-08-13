@@ -78,7 +78,6 @@ def process_markdown_files(input_folder, output_folder):
         clean_markdown_file(md_file)
 
 if __name__ == '__main__':
-    input_folder = 'C:/Users/Tamanegi/Documents/Onion/G01-简阅摘录文章/Unread'  # Replace with the path to your input folder
-    # input_folder = 'C:/Users/Tamanegi/Documents/Onion/D01-日记/2024'
-    output_folder = 'C:/Users/Tamanegi/Documents/Onion/附件/图片'  # Replace with the path to your output folder
+    input_folder = ''  # Replace with the path to your input folder
+    output_folder = ''  # Replace with the path to your output folder
     process_markdown_files(input_folder, output_folder)
